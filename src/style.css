@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 10px 10px;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    width: 400px;
+}
+
+.card h2 {
+    justify-content: center;
+    display: flex;
+}
+
+.card button {
+    background-color: white;
+    border-radius: 10px;
+    border: solid white 1px;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.card button:hover {
+    background-color: coral;
+    cursor: pointer;
+    border: solid coral 1px;
+}
